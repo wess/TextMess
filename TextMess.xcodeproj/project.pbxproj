@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08F8000116397A8200A95B4D /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 08F8000016397A8200A95B4D /* test.txt */; };
+		08F8000716397E7500A95B4D /* CGGeometry+MEDConvenienceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F8000616397E7500A95B4D /* CGGeometry+MEDConvenienceAdditions.m */; };
+		08F8000B163981C000A95B4D /* WCAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F8000A163981C000A95B4D /* WCAttributedString.m */; };
+		08F8FFCB1639784900A95B4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F8FFCA1639784900A95B4D /* UIKit.framework */; };
+		08F8FFCD1639784900A95B4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F8FFCC1639784900A95B4D /* Foundation.framework */; };
+		08F8FFCF1639784900A95B4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F8FFCE1639784900A95B4D /* CoreGraphics.framework */; };
+		08F8FFD51639784900A95B4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08F8FFD31639784900A95B4D /* InfoPlist.strings */; };
+		08F8FFD71639784900A95B4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F8FFD61639784900A95B4D /* main.m */; };
+		08F8FFDB1639784900A95B4D /* TMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F8FFDA1639784900A95B4D /* TMAppDelegate.m */; };
+		08F8FFDD1639784900A95B4D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 08F8FFDC1639784900A95B4D /* Default.png */; };
+		08F8FFDF1639784900A95B4D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08F8FFDE1639784900A95B4D /* Default@2x.png */; };
+		08F8FFE11639784900A95B4D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08F8FFE01639784900A95B4D /* Default-568h@2x.png */; };
+		08F8FFE91639788600A95B4D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F8FFE71639788600A95B4D /* CoreText.framework */; };
+		08F8FFEA1639788600A95B4D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F8FFE81639788600A95B4D /* QuartzCore.framework */; };
+		08F8FFEE163978B100A95B4D /* TMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F8FFED163978B100A95B4D /* TMViewController.m */; };
+		08F8FFF2163978CE00A95B4D /* TMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F8FFF1163978CE00A95B4D /* TMView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08F8000016397A8200A95B4D /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		08F8000316397E7500A95B4D /* Archimedes-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Archimedes-Prefix.pch"; sourceTree = "<group>"; };
+		08F8000416397E7500A95B4D /* Archimedes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Archimedes.h; sourceTree = "<group>"; };
+		08F8000516397E7500A95B4D /* CGGeometry+MEDConvenienceAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGGeometry+MEDConvenienceAdditions.h"; sourceTree = "<group>"; };
+		08F8000616397E7500A95B4D /* CGGeometry+MEDConvenienceAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGGeometry+MEDConvenienceAdditions.m"; sourceTree = "<group>"; };
+		08F80009163981C000A95B4D /* WCAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCAttributedString.h; sourceTree = "<group>"; };
+		08F8000A163981C000A95B4D /* WCAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCAttributedString.m; sourceTree = "<group>"; };
+		08F8FFC61639784900A95B4D /* TextMess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextMess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F8FFCA1639784900A95B4D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		08F8FFCC1639784900A95B4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		08F8FFCE1639784900A95B4D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		08F8FFD21639784900A95B4D /* TextMess-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextMess-Info.plist"; sourceTree = "<group>"; };
+		08F8FFD41639784900A95B4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08F8FFD61639784900A95B4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08F8FFD81639784900A95B4D /* TextMess-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextMess-Prefix.pch"; sourceTree = "<group>"; };
+		08F8FFD91639784900A95B4D /* TMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMAppDelegate.h; sourceTree = "<group>"; };
+		08F8FFDA1639784900A95B4D /* TMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMAppDelegate.m; sourceTree = "<group>"; };
+		08F8FFDC1639784900A95B4D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		08F8FFDE1639784900A95B4D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		08F8FFE01639784900A95B4D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		08F8FFE71639788600A95B4D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		08F8FFE81639788600A95B4D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		08F8FFEC163978B100A95B4D /* TMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMViewController.h; sourceTree = "<group>"; };
+		08F8FFED163978B100A95B4D /* TMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMViewController.m; sourceTree = "<group>"; };
+		08F8FFF0163978CE00A95B4D /* TMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMView.h; sourceTree = "<group>"; };
+		08F8FFF1163978CE00A95B4D /* TMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08F8FFC31639784900A95B4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F8FFE91639788600A95B4D /* CoreText.framework in Frameworks */,
+				08F8FFEA1639788600A95B4D /* QuartzCore.framework in Frameworks */,
+				08F8FFCB1639784900A95B4D /* UIKit.framework in Frameworks */,
+				08F8FFCD1639784900A95B4D /* Foundation.framework in Frameworks */,
+				08F8FFCF1639784900A95B4D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08F8000216397E7500A95B4D /* Archimedes */ = {
+			isa = PBXGroup;
+			children = (
+				08F8000316397E7500A95B4D /* Archimedes-Prefix.pch */,
+				08F8000416397E7500A95B4D /* Archimedes.h */,
+				08F8000516397E7500A95B4D /* CGGeometry+MEDConvenienceAdditions.h */,
+				08F8000616397E7500A95B4D /* CGGeometry+MEDConvenienceAdditions.m */,
+			);
+			name = Archimedes;
+			path = Archimedes/Archimedes;
+			sourceTree = SOURCE_ROOT;
+		};
+		08F80008163981B700A95B4D /* WCAttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				08F80009163981C000A95B4D /* WCAttributedString.h */,
+				08F8000A163981C000A95B4D /* WCAttributedString.m */,
+			);
+			name = WCAttributedString;
+			sourceTree = "<group>";
+		};
+		08F8FFBB1639784900A95B4D = {
+			isa = PBXGroup;
+			children = (
+				08F8FFD01639784900A95B4D /* TextMess */,
+				08F8FFC91639784900A95B4D /* Frameworks */,
+				08F8FFC71639784900A95B4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08F8FFC71639784900A95B4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08F8FFC61639784900A95B4D /* TextMess.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08F8FFC91639784900A95B4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08F8FFE71639788600A95B4D /* CoreText.framework */,
+				08F8FFE81639788600A95B4D /* QuartzCore.framework */,
+				08F8FFCA1639784900A95B4D /* UIKit.framework */,
+				08F8FFCC1639784900A95B4D /* Foundation.framework */,
+				08F8FFCE1639784900A95B4D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08F8FFD01639784900A95B4D /* TextMess */ = {
+			isa = PBXGroup;
+			children = (
+				08F8FFEF163978B500A95B4D /* View */,
+				08F8FFEB163978A200A95B4D /* ViewController */,
+				08F8FFD91639784900A95B4D /* TMAppDelegate.h */,
+				08F8FFDA1639784900A95B4D /* TMAppDelegate.m */,
+				08F8FFD11639784900A95B4D /* Supporting Files */,
+			);
+			path = TextMess;
+			sourceTree = "<group>";
+		};
+		08F8FFD11639784900A95B4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08F80008163981B700A95B4D /* WCAttributedString */,
+				08F8000216397E7500A95B4D /* Archimedes */,
+				08F8FFD21639784900A95B4D /* TextMess-Info.plist */,
+				08F8FFD31639784900A95B4D /* InfoPlist.strings */,
+				08F8FFD61639784900A95B4D /* main.m */,
+				08F8FFD81639784900A95B4D /* TextMess-Prefix.pch */,
+				08F8FFDC1639784900A95B4D /* Default.png */,
+				08F8FFDE1639784900A95B4D /* Default@2x.png */,
+				08F8FFE01639784900A95B4D /* Default-568h@2x.png */,
+				08F8000016397A8200A95B4D /* test.txt */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08F8FFEB163978A200A95B4D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				08F8FFEC163978B100A95B4D /* TMViewController.h */,
+				08F8FFED163978B100A95B4D /* TMViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		08F8FFEF163978B500A95B4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				08F8FFF0163978CE00A95B4D /* TMView.h */,
+				08F8FFF1163978CE00A95B4D /* TMView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08F8FFC51639784900A95B4D /* TextMess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08F8FFE41639784900A95B4D /* Build configuration list for PBXNativeTarget "TextMess" */;
+			buildPhases = (
+				08F8FFC21639784900A95B4D /* Sources */,
+				08F8FFC31639784900A95B4D /* Frameworks */,
+				08F8FFC41639784900A95B4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextMess;
+			productName = TextMess;
+			productReference = 08F8FFC61639784900A95B4D /* TextMess.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08F8FFBD1639784900A95B4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TM;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Wess Cope";
+			};
+			buildConfigurationList = 08F8FFC01639784900A95B4D /* Build configuration list for PBXProject "TextMess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08F8FFBB1639784900A95B4D;
+			productRefGroup = 08F8FFC71639784900A95B4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08F8FFC51639784900A95B4D /* TextMess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08F8FFC41639784900A95B4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F8FFD51639784900A95B4D /* InfoPlist.strings in Resources */,
+				08F8FFDD1639784900A95B4D /* Default.png in Resources */,
+				08F8FFDF1639784900A95B4D /* Default@2x.png in Resources */,
+				08F8FFE11639784900A95B4D /* Default-568h@2x.png in Resources */,
+				08F8000116397A8200A95B4D /* test.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08F8FFC21639784900A95B4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F8FFD71639784900A95B4D /* main.m in Sources */,
+				08F8FFDB1639784900A95B4D /* TMAppDelegate.m in Sources */,
+				08F8FFEE163978B100A95B4D /* TMViewController.m in Sources */,
+				08F8FFF2163978CE00A95B4D /* TMView.m in Sources */,
+				08F8000716397E7500A95B4D /* CGGeometry+MEDConvenienceAdditions.m in Sources */,
+				08F8000B163981C000A95B4D /* WCAttributedString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08F8FFD31639784900A95B4D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08F8FFD41639784900A95B4D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08F8FFE21639784900A95B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		08F8FFE31639784900A95B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08F8FFE51639784900A95B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextMess/TextMess-Prefix.pch";
+				INFOPLIST_FILE = "TextMess/TextMess-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		08F8FFE61639784900A95B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextMess/TextMess-Prefix.pch";
+				INFOPLIST_FILE = "TextMess/TextMess-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08F8FFC01639784900A95B4D /* Build configuration list for PBXProject "TextMess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F8FFE21639784900A95B4D /* Debug */,
+				08F8FFE31639784900A95B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08F8FFE41639784900A95B4D /* Build configuration list for PBXNativeTarget "TextMess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F8FFE51639784900A95B4D /* Debug */,
+				08F8FFE61639784900A95B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08F8FFBD1639784900A95B4D /* Project object */;
+}
